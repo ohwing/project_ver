@@ -1,0 +1,100 @@
+/* Common Settings */
+html {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+* {
+  font-family: ;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.bg-faded {
+  background-color: #666666 !important
+}
+
+/* Header */
+.navbar {
+  color: #FFFFFF;
+}
+/* navbar 색상 설정 */
+
+.fa.fa-bolt {
+  position: relative; /* 위치를 이해하기 때문에 뒤에 있는 레이아웃이 무너지지 않고 마음대로 옮길 수 있다. */
+}
+
+.navbar-toggler {
+  border: none;
+  top: 12.75px;
+}
+
+.fa.fa-bars {
+  position: relative; /* 위치를 이해하기 때문에 뒤에 있는 레이아웃이 무너지지 않고 마음대로 옮길 수 있다. */
+}
+
+
+/* Icon */
+.icon-section {
+  color: #666666;
+  margin-right: 30px;
+}
+
+
+/* Settings Menu */
+.bread-title {
+  display: inline;
+}
+
+.breadcrumb {
+  background-color: rgba(255,255,255,.5);
+}
+
+.breadcrumb-link {
+  color: #666666;
+}
+
+
+/* Setting */
+.form-group {
+  margin: 1% 16.5% 0% 16.5%;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .form-group {
+    margin: 1% 8% 0% 8%;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .form-group {
+    margin: 1% 5% 0% 5%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .form-group {
+    margin: 1% 2% 0% 2%;
+  }
+}
+
+.setting-label {
+  color: #666666;
+}
+
+.btn {
+  color: #666666;
+  margin-right: 7.5%;
+  font-size: 20px;
+}
+
+.setting-content {
+  margin-bottom: 2%;
+}

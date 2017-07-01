@@ -1,0 +1,110 @@
+/* Common Settings */
+html {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+* {
+  color: #666666; /* 글자 색상을 회색으로 적용 */
+}
+
+button {
+  cursor: pointer; /* 버튼에 커서를 올리면 손가락모양으로 바뀐다. */
+}
+
+button:focus {
+  outline: none; /* 버튼에 커서를 클릭하면 바깥줄에 아무것도 적용하지 않는다. */
+  border-color: none;
+}
+
+a {
+  color: inherit; /* 상위 선택자 *로부터 색 상속 */
+}
+
+a:hover,
+a:focus {
+  color: inherit;
+}
+
+.bg-faded {
+  background-color: #666666 !important; /* bg-faded 클래스를 적용하면 배경색상을 회색으로 설정 */
+}
+
+
+/* Header */
+.navbar-brand,
+.navbar-toggler,
+.nav-item {
+  color: #FFFFFF;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #FFFFFF;
+}
+
+.fa.fa-ellipsis-v {
+  color: #FFFFFF;
+}
+
+.navbar-brand.bolt {
+  margin-right: 20px;
+}
+
+.fa.fa-bolt {
+  color: #FFFFFF;
+}
+
+.ellipsis-second {
+  margin-right: 100px;
+}
+
+.fa.fa-bars {
+  padding-top: 3.5px;
+  color: #FFFFFF;
+}
+
+.nav-item:hover {
+  transform: scale(1.4); /* a태그에 커서를 올리거나 클릭했을 때, 1.01배로 커지는 효과 적용 */
+}
+
+
+/* Icon */
+.icon-section {
+  color: #666666; /* 아이콘 색상을 회색으로 적용 */
+  margin-right: 30px;
+}
+
+.fa.fa-envelop {
+  color: #666666;
+}
+
+.icon-section:hover,
+.icon-section:focus {
+  color: #666666; /* 아이콘에 커서를 올리거나 클릭했을때 회색으로 적용 */
+}
+
+
+/* Set-up Menu */
+.setting-title {
+  color: #666666;
+}
+
+.nav-item-setting {
+  color: #666666;
+}
+
+/* Set-up content */
+.form-control:focus {
+  border-color: #666666; /* 입력창에 입력할 때 border 색상을 회색으로 설정 */
+}
+
+.btn.btn-save {
+  color: #FFFFFF;
+  background-color: #666666;
+  border-radius: 100px;
+}
+
+.btn.btn-save:focus {
+  outline: none;
+}
