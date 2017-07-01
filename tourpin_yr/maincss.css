@@ -1,0 +1,43 @@
+/*Header*/
+.mainname {
+	margin : 0;
+	font-size: 1.333333rem;
+}
+
+.mainname a{
+	font-size: 2rem;
+	font-weight: 700; /*글씨 두껍게.*/
+	color: #3C74AA !important; /*VG238색상 Bootstrap에 가려 색적용안됨 => important사용*/
+}
+
+.header {
+	background-color: #666666; /*nav 배경 색상*/
+}
+
+
+.nav-item a{
+	font-weight: 700;
+	font-size: 1.3rem;
+	color: #fff !important;
+}
+
+/*
+.line{
+	height: 50px;
+	border-right : 3px solid #fff;
+} 메뉴와 메뉴사이에 선*/
+
+
+/*main*/
+.main {
+	height: 530px;
+}
+
+
+/*search-plus icon*/
+.icon a {
+	margin :0px 20px 5px 0px;
+	text-decoration: none;
+	color: #333;
+	float: right;
+}

@@ -1,0 +1,74 @@
+button {
+	cursor: pointer;/*버튼 위에 올렸을때 커서모양이 바뀐다.*/
+}
+
+button:focus {
+	outline: none;
+}/*버튼을 눌렀을 시(:focus) 생기는 테두리를 없앤다 outline : 테두리*/
+
+/*Header*/
+.mainname {
+	margin : 0;
+	font-size: 1.333333rem;
+}
+
+.mainname a{
+	font-size: 2rem;
+	font-weight: 700; /*글씨 조금 두껍게.*/
+	color: #fff !important; /*Bootstrap에 가려 색적용안됨 => important사용*/
+}
+
+
+.header {
+	background-color: #666666; /*nav 배경 색상*/
+}
+
+.nav-item a{
+	font-weight: 700;
+	font-size: 1.3rem;
+	color: #fff !important;
+} /*내려오는 메뉴들*/
+
+.dropdown-menu {
+	text-align: center;
+	background-color:#666666;
+	border-style: none;
+}/*내려오는 메뉴 배경 및 테두리 설정*/
+
+.navbar-nav {
+
+}/*내려오는 메뉴가 위에 아이콘이 작으면 사라져 버려서 크기 조절*/
+
+.nav-link{
+	letter-spacing: 10px;
+	border-left: 5px solid white;
+}
+
+.sign {
+	width: 30px;
+	color: red;
+}/*번개모양 알림 표시 */
+
+/*main*/
+
+.main {
+	height: 530px;
+}
+
+
+/*footer- icon*/
+.footer a {
+	color: #666666!important;
+	margin :0px 20px 5px 0px;
+	text-decoration: none;
+	color: #333;
+}/*하단 버튼들 설정*/
+
+.icon_l {
+	float: left;
+}/*왼족 하단 다른사람의 지도보기 버튼*/
+
+.icon_r {
+	float: right;
+}/*오른쪽 하단 추억 추가/삭제 및 확대 및 공유 버튼*/
+
